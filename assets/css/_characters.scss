@@ -2,8 +2,9 @@
 	flex: 1;
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-	grid-template-rows: repeat(auto-fill, minmax(200px, 1fr));
+	grid-template-rows: repeat(auto-fill, minmax(230px, 1fr));
+	grid-gap: 10px;
 }
 .character__cart {
-	background-color: red;
+	background-color: wheat;
 }
