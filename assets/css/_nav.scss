@@ -1,0 +1,49 @@
+.logo {
+	height: 100%;
+}
+.nav {
+	height: 100%;
+	width: 30%;
+	&__list {
+		height: 100%;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		list-style: none;
+	}
+	&__item {
+		flex: 1;
+		height: 100%;
+		display: grid;
+		place-items: center;
+	}
+	&__link {
+		height: 100%;
+		width: 100%;
+		text-align: center;
+		line-height: 6vh;
+	}
+}
+.userPanel {
+	height: 100%;
+	width: 20%;
+	&__list {
+		height: 100%;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		list-style: none;
+	}
+	&__item {
+		flex: 1;
+		height: 100%;
+		display: grid;
+		place-items: center;
+	}
+	&__link {
+		height: 100%;
+		width: 100%;
+		text-align: center;
+		line-height: 6vh;
+	}
+}
